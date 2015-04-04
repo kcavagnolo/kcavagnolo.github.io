@@ -63,6 +63,18 @@ hr.small {
     max-width: 100px;
 }
 
+/* Tumblr Posts */
+#tumblrfeed {
+    width: 500px;
+    height:
+}
+
+.posts {
+    margin-top: 25px;
+    padding: 5px;
+}
+
+
 /* Side Menu */
 
 #sidebar-wrapper {
