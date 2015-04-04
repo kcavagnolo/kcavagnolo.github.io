@@ -1392,6 +1392,14 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
 ul,
 ol {
   margin-top: 0;
