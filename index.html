@@ -249,8 +249,9 @@
   </aside>
   
   <!-- Map -->
-  <section id="contact" class="map">
-    <iframe width="100%"
+  <section id="canvas1" class="map">
+    <iframe id="map_canvas1"
+	    width="100%"
 	    height="100%"
 	    frameborder="0"
 	    scrolling="no"
@@ -284,6 +285,19 @@
   
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
+  <!-- Map click script -->
+  <script>
+    $(document).ready(function () {
+    $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+    $('#canvas1').on('click', function () {
+    $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+    });
+    $("#map_canvas1").mouseleave(function () {
+    $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+    });
+    });
+  </script>
 
   <!-- Custom Theme JavaScript -->
   <script>
