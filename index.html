@@ -11,13 +11,9 @@
 
     <title>Home</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -59,256 +55,231 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-  
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Map click script -->
     <script src="js/map_click.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
 </head>
 
-<body>
-
-  <!-- Navigation -->
-  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-      <li class="sidebar-brand">
-        <a href="#top">Navigation</a>
-      </li>
-      <li>
-        <a href="#top">Home</a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a href="#canvas1">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Header -->
-  <header id="top" class="header">
-    <div class="text-vertical-center">
-      <h1>Ken Cavagnolo</h1>
-      <h3>Data Scientist &nbsp;&bull;&nbsp; Product Manager &nbsp;&bull;&nbsp; Astrophysicist</h3>
-      <br>
-    </div>
-  </header>
-
-  <!-- About -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>I am an ex-academic that grew-up loving data and asking, "Why?"</h2>
-          <p class="lead"></p>
-        </div>
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="services bg-primary">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-10 col-lg-offset-1">
-          <h2>About Me</h2>
-          <hr class="small">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x text-primary"></i>
-                </span>
-                <h4>
-                  <strong>LinkedIn</strong>
-                </h4>
-                <p>I have a colorful work history, and it's chronicled on LinkedIn.</p>
-                <a target="_blank" href="http://www.linkedin.com/in/kencavagnolo/" class="btn btn-light">See my profile</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x text-primary"></i>
-                </span>
-                <h4>
-                  <strong>Github</strong>
-                </h4>
-                <p>Any code I make public (which isn't much) is maintained on Github.</p>
-                <a target="_blank" href="https://github.com/kcavagnolo" class="btn btn-light">Check my code</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x text-primary"></i>
-                </span>
-                <h4>
-                  <strong>Twitter</strong>
-                </h4>
-                <p>Occasionally, I feel like one of many thoughts is worth sharing.</p>
-                <a target="_blank" href="https://twitter.com/KenCavagnolo" class="btn btn-light">Read some tweets</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-coffee fa-stack-1x text-primary"></i>
-                </span>
-                <h4>
-                  <strong>Research</strong>
-                </h4>
-                <p>I left academia in 2011, but my research page persists.</p>
-                <a target="_blank" href="http://www.oca.eu/cavagnolo" class="btn btn-light">Explore my work</a>
-              </div>
-            </div>
-          </div>
-          <!-- /.row (nested) -->
-        </div>
-        <!-- /.col-lg-10 -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </section>
-
-  <!-- Callout -->
-  <aside class="callout">
-    <div class="text-vertical-center">
-      <h1>How do I stay busy?</h1>
-    </div>
-  </aside>
-
-  <!-- Portfolio -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h2>Side Projects and Interests</h2>
-          <hr class="small">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#top">
+                    <i class="fa fa-database"></i>  <span class="light">K</span>Cavagnolo
                 </a>
-              </div>
             </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /.row (nested) -->
-          <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
-        </div>
-        <!-- /.col-lg-10 -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </section>
 
-  <!-- Call to Action -->
-  <aside class="call-to-action bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1>Geolocation</h1>
-          <a target="_blank" href="https://goo.gl/maps/nss6f" class="btn btn-lg btn-light">Currently</a>
-          <a target="_blank" href="https://en.batchgeo.com/map/03ef4261bc9e1c82af32ee08574083b9" class="btn btn-lg btn-dark">Previously</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#callout">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </aside>
-  
-  <!-- Map -->
-  <section id="canvas1" class="map">
-    <iframe id="map_canvas1"
-	    width="100%"
-	    height="100%"
-	    frameborder="0"
-	    scrolling="no"
-	    marginheight="0"
-	    marginwidth="0"
-	    style="border:0"
-	    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d103339.31210636423!2d-83.92019610000001!3d35.96278199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1428161153902;output=embed">
-    </iframe>
-  </section>
+    </nav>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h4><strong>Contact Me</strong></h4>
-          <ul class="list-unstyled">
-            <li><i class="fa fa-phone fa-fw"></i> 719.285.9062</li>
-            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:kencavagnolo@gmail.com">kencavagnolo@gmail.com</a></li>
-          </ul>
-          <hr class="small">
-          <p class="text-muted">Copyright &copy; BV, LLC. 2015</p>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Ken Cavagnolo</h1>
+            <h3>Data Scientist &nbsp;&bull;&nbsp; Product Manager &nbsp;&bull;&nbsp; Astrophysicist</h3>
         </div>
-      </div>
-    </div>
-  </footer>
+    </header>
 
-  <!-- Navbar -->
-  <script>
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                                scrollTop: target.offset().top
-                                    }, 1000);
-                        return false;
-                    }
-                }
-            });
-    });
-  </script>
+    <!-- filler -->
+    <section id="filler0" class="about">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <h2>I am an ex-academic that loves data and asking, "Why?"</h2>
+                        <br>
+                        <br>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x btn-outline"></i> 
+                                </span>
+                                <h4>
+                                    <strong>LinkedIn</strong>
+                                </h4>
+                                <p>My colorful work history is chronicled on LinkedIn.</p>
+                                <!--<a target="_blank" href="http://www.linkedin.com/in/kencavagnolo/" class="btn btn-light">See my profile</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-github fa-stack-1x btn-outline"></i> 
+                                </span>
+                                <h4>
+                                    <strong>Github</strong>
+                                </h4>
+                                <p>A heap of disorganized code is maintained on Github.</p>
+                                <!--<a target="_blank" href="https://github.com/kcavagnolo" class="btn btn-light">Check my code</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-coffee fa-stack-1x btn-outline"></i> 
+                                </span>
+                                <h4>
+                                    <strong>Research</strong>
+                                </h4>
+                                <p>I left academia in 2011, but my research page persists.</p>
+                                <!--<a target="_blank" href="http://www.oca.eu/cavagnolo" class="btn btn-light">Explore my work</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-twitter fa-stack-1x btn-outline"></i>
+                                </span>
+                                <h4>
+                                    <strong>Twitter</strong>
+                                </h4>
+                                <p>Mistakenly, I sometimes feel a thought is worth sharing.</p>
+                                <!--<a target="_blank" href="https://twitter.com/KenCavagnolo" class="btn btn-light">Read some tweets</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- filler -->
+    <section id="filler1" class="about">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout -->
+    <aside id="callout" class="callout">
+        <div class="text-vertical-center">
+            <h1>How do I stay busy?</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="datascience.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="sports.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="travel.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="food.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <aside id="contact" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1><strong>Contact Me</strong></h1>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  kencavagnolo@gmail.com</li>
+                        <li><i class="fa fa-phone fa-fw"></i> 719.285.9062</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="canvas1" class="map">
+        <iframe id="map_canvas1"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d103339.31210636423!2d-83.92019610000001!3d35.96278199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1428161153902;output=embed">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p class="text-muted">Copyright &copy; BV, LLC. 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
