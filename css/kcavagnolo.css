@@ -54,7 +54,7 @@ body {
 .btn-outline {
     border: solid 1px #fff;
     color: #fff;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .btn-outline:hover,
@@ -62,20 +62,15 @@ body {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 1px #fff;
-    border-radius: 110%;
+    border-radius: 100%;
     color: #6b7e4a;
     background: #fff;
 }
 
 .btn-social {
     display: inline-block;
-    width: 50px;
-    height: 50px;
     border: 2px solid #fff;
     border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
 }
 
 .btn:focus,
@@ -102,29 +97,12 @@ hr.small {
 }
 
 
-/* Side Menu */
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-    background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
+/* Nav bar */
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -152,21 +130,21 @@ hr.small {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: #6b7e4a;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: transparent;
+    background-color: #7e5d4a;
 }
 
 .navbar-custom .nav li.active {
@@ -204,16 +182,6 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
 }
 
 .toggle {
