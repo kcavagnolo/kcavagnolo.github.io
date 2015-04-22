@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               KCavagnolo
 tagline:             The un-blog
-url:                 http://kcavgnolo.com
+url:                 http://kcavagnolo.com
 paginate:            1
 baseurl:             ""
 
