@@ -1,5 +1,4 @@
-# [Modified version of combined Start Bootstrap's Stylish Portfolio,
-  Grayscale, and Freelance templates](http://startbootstrap.com/)
+# [Modified version of combined Start Bootstrap's Stylish Portfolio, Grayscale, and Freelance templates](http://startbootstrap.com/)
 
 These are responsive themes for [Bootstrap](http://getbootstrap.com/)
 created by [Start Bootstrap](http://startbootstrap.com/). The themes
