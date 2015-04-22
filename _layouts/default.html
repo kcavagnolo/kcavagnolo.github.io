@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
   {% include head.html %}
+  {% include ganalytics.html %}
 
   <body>
 
@@ -10,6 +11,10 @@
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
+	  {% for page in site.pages_list %}
+	  &nbsp;&nbsp;&nbsp;
+	  <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+	  {% endfor %}
         </h3>
       </header>
 
@@ -17,12 +22,17 @@
         {{ content }}
       </main>
 
+      {% include tweet.html %}
+
+      {% include disqus.html %}
+
       <footer class="footer">
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
       </footer>
     </div>
-
+    
   </body>
+
 </html>
