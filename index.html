@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title>Ken Cavagnolo</title>
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -70,11 +70,13 @@
 
 </head>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand page-scroll" href="#top">
+                <a class="navbar-brand page-scroll" href="#page-top">
                     <i class="fa fa-home"></i>  <span class="light">K</span>Cavagnolo
                 </a>
             </div>
@@ -84,16 +86,19 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#top"></a>
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about_anchor">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#callout">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio_anchor">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact_anchor">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="blog.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -101,7 +106,7 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header class="header">
         <div class="text-vertical-center">
             <h1>Ken Cavagnolo</h1>
             <h3>Data Scientist &nbsp;&bull;&nbsp; Product Manager &nbsp;&bull;&nbsp; Astrophysicist</h3>
@@ -109,7 +114,7 @@
     </header>
 
     <!-- filler -->
-    <section id="filler0" class="about">
+    <section id="about_anchor" class="about">
         <div class="container">
             <div class="row">
             </div>
@@ -190,14 +195,12 @@
         </div>
     </section>
 
-    <!-- Callout -->
-    <aside id="callout" class="callout">
+    <!-- Portfolio -->
+    <aside id="portfolio_anchor" class="callout-digital">
         <div class="text-vertical-center">
             <h1>How do I stay busy?</h1>
         </div>
     </aside>
-
-    <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
@@ -222,7 +225,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="food.html" class="portfolio-box">
+                                <a href="http://bruiser-ventures.com" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="img/food.jpg">
 				    <div class="portfolio-box-caption">
 				      <div class="portfolio-box-caption-content">
@@ -277,15 +280,28 @@
         </div>
     </section>
 
+    <!-- filler -->
+    <section id="filler2" class="about">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
     <!-- Contact -->
+    <aside id="contact_anchor" class="callout-knx">
+        <div class="text-vertical-center">
+            <h1>Contact Me</h1>
+        </div>
+    </aside>
     <aside id="contact" class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1><strong>Contact Me</strong></h1>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  ken@kcavagnolo.com</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> ken@kcavagnolo.com</li>
                         <li><i class="fa fa-phone fa-fw"></i> 719.285.9062</li>
+			<li><a href="blog.html" class="btn btn-default btn-lg">Check the blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -293,18 +309,18 @@
     </aside>
 
     <!-- Map -->
-    <section id="canvas1" class="map">
-        <iframe id="map_canvas1"
-                width="100%"
-                height="100%"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-                style="border:0"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d103339.31210636423!2d-83.92019610000001!3d35.96278199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1428161153902;output=embed">
-        </iframe>
-    </section>
+    <!-- <section id="canvas1" class="map"> -->
+    <!--     <iframe id="map_canvas1" -->
+    <!--             width="100%" -->
+    <!--             height="100%" -->
+    <!--             frameborder="0" -->
+    <!--             scrolling="no" -->
+    <!--             marginheight="0" -->
+    <!--             marginwidth="0" -->
+    <!--             style="border:0" -->
+    <!--             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d103339.31210636423!2d-83.92019610000001!3d35.96278199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1428161153902;output=embed"> -->
+    <!--     </iframe> -->
+    <!-- </section> -->
 
     <!-- Footer -->
     <footer>
