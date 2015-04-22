@@ -1,2 +1,5 @@
 .idea*
-kcavagnolo.github.io.iml
+*.iml
+_site*
+Gemfile.*
+.sass-cache*
