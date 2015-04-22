@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               KCavagnolo
-tagline:             The un-blog
+tagline:             The non-ub-blog?
 url:                 http://kcavagnolo.com
 paginate:            1
 baseurl:             ""
