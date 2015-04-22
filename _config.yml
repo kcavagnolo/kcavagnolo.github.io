@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               KCavagnolo
 tagline:             The un-blog
-url:                 http://kacavgnolo.com
+url:                 http://kcavgnolo.com
 paginate:            1
 baseurl:             ""
 
@@ -25,7 +25,7 @@ sass:
 # About/contact
 author:
   name:              Ken Cavagnolo
-  url:               https://twitter.com/kcavagnolo
+  url:               https://twitter.com/kencavagnolo
   email:             ken@kcavagnolo.com
 
 # Custom vars
