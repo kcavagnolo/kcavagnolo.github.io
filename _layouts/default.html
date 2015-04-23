@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   
-  {% include head.html %}
+{% include head.html %}
 
-  <body bgcolor="#000">
+<body>
 
-    {% include nav.html %}
+  {% include nav.html %}
 
-    <!-- filler -->
-    <section id="about_anchor" class="about">
-        <div class="container content">
-            <div class="row">
-	      <main>
-		{{ content }}
-	      </main>
-	    </div>
-        </div>
-    </section>
+  <!-- filler -->
+  <section id="about_anchor" class="about">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
 
-    {% include tweet.html %}
-    {% include disqus.html %}
-    {% include footer.html %}    
-
-  </body>
+  {% include tweet.html %}
+  {% include disqus.html %}
+  {% include footer.html %}    
+  
+</body>
 
 </html>
