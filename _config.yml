@@ -1,18 +1,16 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 relative_permalinks: true
 
 # Setup
 title:               KCavagnolo
 url:                 http://kcavagnolo.com
-baseurl:	     "blog"
+baseurl:	     ""
 paginate:            1
+paginate_path:	     "blog/posts/:num"
 
 # Pages
 pages_list:
-  About: '/#about_anchor'
   Archive: '/archive'
   Feed: '/atom.xml'
 
@@ -26,8 +24,3 @@ author:
   name:              Ken Cavagnolo
   url:               https://twitter.com/kencavagnolo
   email:             ken@kcavagnolo.com
-
-# Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/kcavagnolo/kcavagnolo.github.io
