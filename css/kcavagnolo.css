@@ -83,6 +83,10 @@ hr.small {
     max-width: 100px;
 }
 
+hr.large {
+    max-width: 200px;
+}
+
 /* Tumblr Posts */
 #tumblrfeed {
     width: 500px;
