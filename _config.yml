@@ -6,6 +6,7 @@ relative_permalinks: true
 title:               KCavagnolo
 url:                 http://kcavagnolo.com
 baseurl:	     ""
+blogdir:	     "blog/"
 paginate:            1
 paginate_path:	     "blog/posts/:num"
 

@@ -1,6 +1,6 @@
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-  <div class="container" style="background-color:#4a6b7e">
+<nav class="navbar navbar-blog navbar-fixed-top" role="navigation">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars" style="color: #fff;"></i>
@@ -15,10 +15,13 @@
           <a href="{{ site.url }}"></a>
         </li>
         <li>
-          <a class="page-scroll" href="/archive/">Archive</a>
+          <a class="page-scroll" href="{{ site.baseurl }}/blog/">Posts</a>
         </li>
         <li>
-          <a class="page-scroll" href="/atom.xml">Feed</a>
+          <a class="page-scroll" href="{{ site.baseurl }}/blog/archive/">Archive</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{{ site.baseurl }}/blog/atom.xml">Feed</a>
         </li>
       </ul>
     </div>
