@@ -1,9 +1,7 @@
-Primary: #4a6b7e
-Secondary: #7e5d4a
-
-Triadic:
-#7e4a6b
-#6b7e4a
+Primary blue: #4a6b7e
+Secondary brown: #7e5d4a
+Triadic purple: #7e4a6b
+Quadratic green: #6b7e4a
 
 Analogous
 #4a517e
@@ -17,57 +15,3 @@ Monochrome
 #53798e
 #5d869e
 #6c92a9
-
-BV:
-We're a tough guy.
-
-BV is an LLC I oversee whom's activities include investing in
-start-ups, supporting tech dev, and providing general data science
-consulting.
-
-Granular Spending:
-See where the US Federal Government spends tax dollars at the
-contractor level
-
-The US Government spends on the order of $1 Trillion per year. This
-money flows through contracts to a wide variety of entities. Per
-compliance laws, these contracts must be documented and the spend
-shared with the public. However, the final destination of these
-dollars can be somewhat obscured since the contracts usually list home
-locations and not spend locations. This project uses a novel technique
-to make a best guess at where contract dollars are spent by a
-contractor. The technique involves aggregating data on all named
-contractors, crawling for data on contractor projects, and then using
-a machine learning model to predict expended spend per
-state/county/zip.
-
-US Political Attitudes Toward Science:
-Quantify the history of Congressional voting on science education
-
-What does the language of every bill ever presented in post-WWII US
-Congressional sessions or committees (House and Senate) tell us about
-political party attitudes toward science and science education? Are
-there correlations between these attitudes, their change change in
-time, and long-term US federal, state, and local economic health? What
-about the relationship of these attitudes with voter socioeconomic
-status on the national, state, and local levels? This project aims to
-answer these questions, and others, in a statistically significant way
-using the words of Congresspeople as they are presented in the US
-Archives.
-
-I'm Human First:
-Crowdsourcing upward mobility
-
-I’m Human First (IHF), Inc. is a non-profit, non-partisan enterprise
-that aims to provide socioeconomic upward mobility to homeless
-American citizens through crowdsourcing of resources needed to achieve
-self-sustainment.
-
-Snipe Tracker:
-An end to lost luggage
-
-Snipe is a real-time luggage tracker built on the Arduino
-platform. The device fits in the palm of your hand, runs on a USB
-rechargeable 72 hrs battery, and quietly connects to any cellular
-network worldwide to tell you where it is. Luggage will never be lost
-again as long as Snipe is along for the ride.
