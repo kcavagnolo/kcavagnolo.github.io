@@ -51,18 +51,15 @@ author: Ken Cavagnolo
 
      <p>Small victory today.</p>
 
-<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello World&quot;</span>
-</pre></div>
-
-
-{% highlight ruby linenos%}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+{% highlight python linenos %}
+def build_model(X, X_test, y):
+    model = DecisionTreeClassifier()
+    samples = sc.parallelize(Bootstrap(y.size))
+    vote_tally = samples.map(lambda (index, _):
+        model.fit(X[index], y[index]).predict(X_test)
+    ).map(vote_increment).fold(zero_matrix(n_test, n_ys), np.add)
+    y_estimate_vote = np.argmax(vote_tally, axis = 1)
+    return accuracy_score(y_test, y_estimate_vote)
 {% endhighlight %}
 
 </div>
