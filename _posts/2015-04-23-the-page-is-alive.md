@@ -51,4 +51,18 @@ author: Ken Cavagnolo
 
      <p>Small victory today.</p>
 
+<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello World&quot;</span>
+</pre></div>
+
+
+{% highlight ruby linenos%}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
 </div>
