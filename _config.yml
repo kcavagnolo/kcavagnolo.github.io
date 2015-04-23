@@ -6,8 +6,8 @@ relative_permalinks: true
 
 # Setup
 title:               KCavagnolo
-tagline:             The non-ub-blog?
 url:                 http://kcavagnolo.com
+baseurl:	     "blog"
 paginate:            1
 
 # Pages
