@@ -59,7 +59,7 @@ def build_model(X, X_test, y):
         model.fit(X[index], y[index]).predict(X_test)
     ).map(vote_increment).fold(zero_matrix(n_test, n_ys), np.add)
     y_estimate_vote = np.argmax(vote_tally, axis = 1)
-    return accuracy_score(y_test, y_estimate_vote)
+    return accuracy_score(y_estimate_vote)
 {% endhighlight %}
 
 </div>
