@@ -25,6 +25,11 @@ author: Ken Cavagnolo
      details of how the site came to be, and the accompanying code so
      someone else can do the same thing.</p>
 
+     <p>First things first: bite the bullet and buy a custom
+     domain. The simplest route I've found in years is [Google
+     Domains](http://domains.google.com). Prices are
+     competitive and the interface is intuitive.</p>
+
      <p>The steps I need to describe:<br>
      <ul>
      <li>google domains</li>
