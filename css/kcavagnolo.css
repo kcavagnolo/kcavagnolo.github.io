@@ -24,6 +24,13 @@ body {
     font-weight: 700;
 }
 
+.img-basic {
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+    margin: 1px auto;
+}
+
 /* Custom Button Styles */
 
 .btn {
