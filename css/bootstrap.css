@@ -1392,6 +1392,29 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
+#ButtonBarDivUnit {
+    top:160px;
+}
+.ButtonBarDiv
+{
+    background-color:green;
+    width:280px;
+    position:fixed;
+    border:1px solid blue;
+    left:0px;
+    text-align: center;
+    height:100px;
+    display:table;
+}
+.ButtonBarDiv div {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+.ButtonBarDiv input[type=image]
+{
+    vertical-align:middle;
+}
 ul,
 ol {
   margin-top: 0;
