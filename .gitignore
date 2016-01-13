@@ -1,5 +1,9 @@
-.idea*
 *.iml
 _site*
 Gemfile.*
 .sass-cache*
+.DS_Store
+domino.*
+.ipynb_checkpoints*
+*~*
+.idea/
