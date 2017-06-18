@@ -60,6 +60,15 @@ How is this deployed to Github?
 * [unsplash](http://unsplash.com) for stock photos.
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the CSS toolkit.
 
+## License
+
+This work is licensed under a [Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+                
+This project code is licensed under the MIT License - see the
+[LICENSE.md](LICENSE.md) file for details.
+
 ## Disclaimer
 
 Ken Cavagnolo, hereafter, "The Owner."
@@ -78,7 +87,7 @@ information nor for the availability of this information. The Owner
 will not be liable for any losses, injuries, or damages from the
 display or use of this information.
 
-No warranties
+#### No warranties
 
 All content provided on this site or blog is for informational
 purposes only. The Owner of this site or blog makes no representations as to
@@ -101,7 +110,7 @@ of any kind.  If you require advice in relation to any technical,
 legal, financial or medical matter you should consult an appropriate,
 licensed professional.
 
-Limitations of liability
+#### Limitations of liability
 
 The Owner will not be liable to you in relation to the contents of, or
 use of, or otherwise in connection with, this website:
@@ -116,11 +125,11 @@ use of, or otherwise in connection with, this website:
 These limitations of liability apply even if The Owner has been
 expressly advised of the potential loss.
 
-Exceptions
+#### Exceptions
 
 None.
 
-Reasonableness
+#### Reasonableness
 
 By using this website, you agree that the exclusions and limitations
 of liability set out in this website disclaimer are reasonable.
@@ -128,20 +137,20 @@ of liability set out in this website disclaimer are reasonable.
 If you do not think they are reasonable, you must not use this
 website.
 
-Unenforceable provisions
+#### Unenforceable provisions
 
 If any provision of this website disclaimer is, or is found to be,
 unenforceable under applicable law, that will not affect the
 enforceability of the other provisions of this website disclaimer.
 
-Downloadable Files and Images
+#### Downloadable Files and Images
 
 Any downloadable file, including but not limited to pdfs, docs, jpegs,
 pngs, is provided at the user’s own risk. The Owner will not be liable
 for any losses, injuries, or damages resulting from a corrupted or
 damaged file.
 
-Comments
+#### Comments
 
 Comments are welcome. However, the site or blog owner reserves the
 right to edit or delete any comments submitted to this site or blog
@@ -157,12 +166,3 @@ without notice due to :
 The blog owner is not responsible for the content in comments.
 
 This site or blog disclaimer is subject to change at anytime.
-
-## License
-
-This work is licensed under a [Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International
-License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-                
-This project code is licensed under the MIT License - see the
-[LICENSE.md](LICENSE.md) file for details.
