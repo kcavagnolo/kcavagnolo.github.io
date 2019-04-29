@@ -5,7 +5,9 @@
 <!--[if IE 7 ]><html lang="en-US" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
 <!--[if IE 8 ]><html lang="en-US" class="no-js ie ie8 lte8 lte9"><![endif]-->
 <!--[if IE 9 ]><html lang="en-US" class="no-js ie ie9 lte9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
 
 <head>
 
@@ -15,8 +17,8 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="kcavagnolo.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="kcavagnolo.com" />
 
     <!-- site info -->
     <title>Ken Cavagnolo</title>
@@ -31,11 +33,19 @@
     <link rel="canonical" href="http://kcavagnolo.com">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="http://www.kcavagnolo.com/xmlrpc.php">
-    <script type="text/javascript" src="wp_content/js/loadCSS.js"></script>
-    <script>loadCSS("css/bootstrap.min.css")</script>
-    <script>loadCSS("css/kcavagnolo.min.css")</script>
-    <script>loadCSS("font-awesome/css/font-awesome.min.css")</script>
-    <script>loadCSS("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic")</script>
+    <script type="text/javascript" src="content/js/loadCSS.js"></script>
+    <script>
+        loadCSS("css/bootstrap.min.css")
+    </script>
+    <script>
+        loadCSS("css/kcavagnolo.min.css")
+    </script>
+    <script>
+        loadCSS("font-awesome/css/font-awesome.min.css")
+    </script>
+    <script>
+        loadCSS("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic")
+    </script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -64,334 +74,286 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- seo -->
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-    <link rel='dns-prefetch' href='//s.w.org'/>
-    <link rel="alternate" type="application/rss+xml" title="RSS feed" href="http://www.kcavagnolo.com/blog/atom.xml"/>
-    <link rel="alternate" type="application/rss+xml" title="Atom feed" href="http://www.kcavagnolo.com/blog/rss.xml"/>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
 
     <!-- javascripts -->
-    <script type="text/javascript" src="wp_content/js/jquery.min.js"></script>
-    <script type="text/javascript" src="wp_content/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="wp_content/js/grayscale.js"></script>
-    <script type="text/javascript" src="wp_content/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="wp_content/js/goptimize.js"></script>
-    <script type="text/javascript" src="wp_content/js/ganalytics.js"></script>
+    <script type="text/javascript" src="content/js/jquery.min.js"></script>
+    <script type="text/javascript" src="content/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="content/js/grayscale.js"></script>
+    <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="content/js/goptimize.js"></script>
+    <script type="text/javascript" src="content/js/ganalytics.js"></script>
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars" style="color: #fff;"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-circle-o-notch"></i> <span class="light">K</span>Cavagnolo
-            </a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars" style="color: #fff;"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-circle-o-notch"></i> <span class="light">K</span>Cavagnolo
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about_anchor">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio_anchor">Interests</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact_anchor">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about_anchor">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio_anchor">Interests</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact_anchor">Contact</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="blog">Blog</a>
-                </li>
-            </ul>
+    <!-- Header -->
+    <header class="header">
+        <div class="text-vertical-center">
+            <h1>Ken Cavagnolo</h1>
+            <h3>Science &nbsp;&bull;&nbsp; Product</h3>
         </div>
-    </div>
-</nav>
+    </header>
 
-<!-- Header -->
-<header class="header">
-    <div class="text-vertical-center">
-        <h1>Ken Cavagnolo</h1>
-        <h3>Science &nbsp;&bull;&nbsp; Product</h3>
-    </div>
-</header>
-
-<!-- filler -->
-<section id="about_anchor" class="about">
-    <div class="container">
-        <div class="row">
+    <!-- filler -->
+    <section id="about_anchor" class="about">
+        <div class="container">
+            <div class="row">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- About -->
-<section id="about" class="services bg-primary">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-10 col-lg-offset-1">
-                <div class="row">
-                    <h2>Asking "why?" tends to solve most problems.</h2>
-                    <br>
-                    <br>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <a target="_blank" href="http://www.linkedin.com/in/kencavagnolo/"><i
-                          class="fa fa-suitcase fa-stack-1x btn-outline"></i></a>
-                </span>
-                            <h4>
-                                <strong>Professional<br>History</strong>
-                            </h4>
+    <!-- About -->
+    <section id="about" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <h2>Asking "why?" tends to solve most problems.</h2>
+                        <br>
+                        <br>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <a target="_blank" href="http://www.linkedin.com/in/kencavagnolo/"><i class="fa fa-suitcase fa-stack-1x btn-outline"></i></a>
+                                </span>
+                                <h4>
+                                    <strong>Professional<br>History</strong>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <a target="_blank" href="https://github.com/kcavagnolo"><i
-                          class="fa fa-code fa-stack-1x btn-outline"></i></a>
-                </span>
-                            <h4>
-                                <strong>Hobby<br>Projects</strong>
-                            </h4>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <a target="_blank" href="https://github.com/kcavagnolo"><i class="fa fa-code fa-stack-1x btn-outline"></i></a>
+                                </span>
+                                <h4>
+                                    <strong>Hobby<br>Projects</strong>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <a target="_blank" href="http://www.oca.eu/cavagnolo"><i
-                          class="fa fa-coffee fa-stack-1x btn-outline"></i></a>
-                </span>
-                            <h4>
-                                <strong>Research<br>Archive</strong>
-                            </h4>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <a target="_blank" href="http://www.oca.eu/cavagnolo"><i class="fa fa-coffee fa-stack-1x btn-outline"></i></a>
+                                </span>
+                                <h4>
+                                    <strong>Research<br>Archive</strong>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <a target="_blank" href="http://www.meetup.com/knoxdata"><i
-                          class="fa fa-paper-plane fa-stack-1x btn-outline"></i></a>
-                </span>
-                            <h4>
-                                <strong>Fun<br>Stuff</strong>
-                            </h4>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <a target="_blank" href="http://www.meetup.com/knoxdata"><i class="fa fa-paper-plane fa-stack-1x btn-outline"></i></a>
+                                </span>
+                                <h4>
+                                    <strong>Fun<br>Stuff</strong>
+                                </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- filler -->
-<section id="filler1" class="about">
-    <div class="container">
-        <div class="row">
+    <!-- filler -->
+    <section id="filler1" class="about">
+        <div class="container">
+            <div class="row">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Portfolio -->
-<aside id="portfolio_anchor" class="callout-digital">
-    <div class="text-vertical-center">
-        <h1>How do I stay busy?</h1>
-    </div>
-</aside>
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="/blog" class="portfolio-box">
-                                <img class="img-portfolio img-responsive" src="img/dsci_gs.jpg"
-                                     alt="Ken Cavagnolo Data Science Projects">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Side Projects
-                                        </div>
-                                        <div class="project-name">
-                                            Data Science Blog
+    <!-- Portfolio -->
+    <aside id="portfolio_anchor" class="callout-digital">
+        <div class="text-vertical-center">
+            <h1>How do I stay busy?</h1>
+        </div>
+    </aside>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://primordialanalytics.com/" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="img/dsci_gs.jpg" alt="Ken Cavagnolo Data Science Projects">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                Side Projects
+                                            </div>
+                                            <div class="project-name">
+                                                Data Science Projects
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="http://bruiser-ventures.com" class="portfolio-box">
-                                <img class="img-portfolio img-responsive" src="img/food_gs.jpg"
-                                     alt="Ken Cavagnolo Bruiser Ventures">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Side Projects
-                                        </div>
-                                        <div class="project-name">
-                                            Bruiser Ventures
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://bruiser-ventures.com" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="img/food_gs.jpg" alt="Ken Cavagnolo Bruiser Ventures">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                Side Projects
+                                            </div>
+                                            <div class="project-name">
+                                                Bruiser Ventures
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="http://www.imhumanfirst.com/" class="portfolio-box">
-                                <img class="img-portfolio img-responsive" src="img/travel_gs.jpg"
-                                     alt="Ken Cavagnolo Travel Interests">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Interests
-                                        </div>
-                                        <div class="project-name">
-                                            I'm Human First
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://www.imhumanfirst.com/" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="img/travel_gs.jpg" alt="Ken Cavagnolo Travel Interests">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                Interests
+                                            </div>
+                                            <div class="project-name">
+                                                I'm Human First
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="https://www.strava.com/athletes/kcavagnolo" class="portfolio-box">
-                                <img class="img-portfolio img-responsive" src="img/sport_gs.jpg"
-                                     alt="Ken Cavagnolo Sports Interests">
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            Interests
-                                        </div>
-                                        <div class="project-name">
-                                            Sports
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://www.strava.com/athletes/kcavagnolo" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="img/sport_gs.jpg" alt="Ken Cavagnolo Sports Interests">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-category text-faded">
+                                                Interests
+                                            </div>
+                                            <div class="project-name">
+                                                Sports
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--
-  &lt;!&ndash; filler &ndash;&gt;
-  <section id="filler2" class="about">
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
-  </section>
-
-  &lt;!&ndash; Portfolio &ndash;&gt;
-  <aside id="blog_anchor" class="callout-blog">
-      <div class="text-vertical-center">
-          <h1>Science Dataist Blog</h1>
-      </div>
-  </aside>
-  <aside id="blog" class="call-to-action bg-primary">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h4>Yo</h4>
-              </div>
-          </div>
-      </div>
-  </aside>
-
-  &lt;!&ndash; filler &ndash;&gt;
-  <section id="filler3" class="about">
-      <div class="container">
-          <div class="row">
-          </div>
-      </div>
-  </section>
--->
-
-<!-- Contact -->
-<aside id="contact_anchor" class="callout-knx">
-    <div class="text-vertical-center">
-        <h1>Contact Me</h1>
-    </div>
-</aside>
-<aside id="contact" class="call-to-action bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <script type="text/javascript">
-                    <!--
-                    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                    // Random encryption key feature coded by Andrew Moulden
-                    // This code is freeware provided these four comment lines remain intact
-                    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                    {
-                        coded = "Cka@CfX3XGaPcP.fP0";
-                        key = "awpPCSZuJQUrOHW0qdXTgMi17l52AIeRBDv4KxGLzYhcnjtokbyN3F8E69Vmsf";
-                        shift = coded.length;
-                        link = "";
-                        for (i = 0; i < coded.length; i++) {
-                            if (key.indexOf(coded.charAt(i)) === -1) {
-                                ltr = coded.charAt(i);
-                                link += (ltr);
+    <!-- Contact -->
+    <aside id="contact_anchor" class="callout-knx">
+        <div class="text-vertical-center">
+            <h1>Contact Me</h1>
+        </div>
+    </aside>
+    <aside id="contact" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <script type="text/javascript">
+                        <!--
+                        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                        // Random encryption key feature coded by Andrew Moulden
+                        // This code is freeware provided these four comment lines remain intact
+                        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                        {
+                            coded = "Cka@CfX3XGaPcP.fP0";
+                            key = "awpPCSZuJQUrOHW0qdXTgMi17l52AIeRBDv4KxGLzYhcnjtokbyN3F8E69Vmsf";
+                            shift = coded.length;
+                            link = "";
+                            for (i = 0; i < coded.length; i++) {
+                                if (key.indexOf(coded.charAt(i)) === -1) {
+                                    ltr = coded.charAt(i);
+                                    link += (ltr);
+                                } else {
+                                    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
+                                    link += (key.charAt(ltr));
+                                }
                             }
-                            else {
-                                ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
-                                link += (key.charAt(ltr));
-                            }
+                            document.write("<h4><i class='fa fa-envelope fa-fw'></i><a href='mailto:" + link + "' style='color: white;'>" + link + "</a><br></h4>" +
+                                "<h4><i class='fa fa-slack fa-fw'></i><a href='http://knoxdevs-slackin.herokuapp.com/' style='color: white;'>kcavagnolo</a><br></h4>");
                         }
-                        document.write("<h4><i class='fa fa-envelope fa-fw'></i><a href='mailto:" + link + "' style='color: white;'>" + link + "</a><br></h4>" +
-                            "<h4><i class='fa fa-slack fa-fw'></i><a href='http://knoxdevs-slackin.herokuapp.com/' style='color: white;'>kcavagnolo</a><br></h4>");
-                    }
-                    //-->
-                </script>
-                <noscript>Sorry, Javascript needs to be active on to email me.</noscript>
+                        //-->
+                    </script>
+                    <noscript>Sorry, Javascript needs to be active on to email me.</noscript>
+                </div>
             </div>
         </div>
-    </div>
-</aside>
+    </aside>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <p class="text-muted">
-                    This work is licensed under a <a rel="license"
-                                                     href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-                    &copy;
-                    <script type="text/javascript">
-                        document.write(new Date().getFullYear());
-                    </script>
-                    . All Rights Reserved.
-                    Visit <a href="https://github.com/kcavagnolo/kcavagnolo.github.io">the code repo</a> for technology
-                    acknowledgements and the site disclaimer.<br>
-                    Last Updated:
-                    <script type="text/javascript">
-                        document.write(new Date(document.lastModified));
-                    </script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p class="text-muted">
+                        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                            Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
+                        &copy;
+                        <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                        </script>
+                        . All Rights Reserved.
+                        Visit <a href="https://github.com/kcavagnolo/kcavagnolo.github.io">the code repo</a> for technology
+                        acknowledgements and the site disclaimer.<br>
+                        Last Updated:
+                        <script type="text/javascript">
+                            document.write(new Date(document.lastModified));
+                        </script>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

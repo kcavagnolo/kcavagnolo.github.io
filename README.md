@@ -1,4 +1,4 @@
-# kcavagnolo.github.io
+# kcavagnolo.com
 
 My personal website.
 
@@ -12,15 +12,16 @@ Why have a webpage? Why not?
 
 Pending.
 
-### Jekyll Blog
+### Jekyll
 
 Pending.
 
 ### Minifier
 
 To compress css and javascript, [minifier](https://www.npmjs.com/package/minifier) is utilized:
+
 ```sh
-$ minify kcavagnolo.css
+minify kcavagnolo.css
 ```
 
 ## Style Guide
@@ -37,10 +38,12 @@ $ minify kcavagnolo.css
 </table>
 
 ### Analogous Colors
+
 * \#4a517e
 * \#4a7e77
 
 ### Monochrome Colors
+
 * \#2e424e
 * \#37505e
 * \#415d6e
@@ -62,14 +65,11 @@ How is this deployed to Github?
 
 ## License
 
-This work is licensed under a [Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International
-License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-                
-This project code is licensed under the MIT License - see the
-[LICENSE.md](LICENSE.md) file for details.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). This project code is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Disclaimer
+
+### General
 
 Ken Cavagnolo, hereafter, "The Owner."
 
