@@ -4,36 +4,44 @@
 <!--[if IE 7 ]><html lang="en-US" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
 <!--[if IE 8 ]><html lang="en-US" class="no-js ie ie8 lte8 lte9"><![endif]-->
 <!--[if IE 9 ]><html lang="en-US" class="no-js ie ie9 lte9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
 
 <head>
 
     <!-- metadata -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="kcavagnolo.com" />
+
+    <!-- site info -->
     <title>Ken Cavagnolo</title>
+    <meta name="description" content="Ken Cavagnolo is a human first.">
+    <meta name="author" content="Ken Cavagnolo">
+    <meta name="keywords" content="Ken, Kenneth, Cavagnolo, scientist, product, manager, astrophysicist, physics,
+    developer, data, programmer, engineer, Atlanta, Knoxville, Austin, Michigan State, Georgia Tech, PhD, Ph.D.,
+    resume, CV, publications, speaker, python, R, C++, C, SQL, NoSQL, Hadoop, Spark, JavaScript, Cassandra, node.js,
+    d3.js, machine learning, analytics, math, statistics, science">
+
+    <!-- site functionality -->
+    <link rel="canonical" href="https://kcavagnolo.com">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="https://www.kcavagnolo.com/xmlrpc.php">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/kcavagnolo.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" type="text/css">
+
+    <!-- stylesheets -->
+    <link rel="preload" href="css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="font-awesome/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- javascripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="content/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="content/js/grayscale.js"></script>
-    <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="content/js/google_analytics.js"></script>
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="public/apple-touch-icon-57x57.png">
@@ -56,6 +64,19 @@
     <meta name="msapplication-config" content="public/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- seo -->
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+
+    <!-- javascripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ecfff49f6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="content/js/grayscale.min.js"></script>
+    <script type="text/javascript" src="content/js/google_optimize.js"></script>
+    <script type="text/javascript" src="content/js/google_analytics.js"></script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -64,9 +85,8 @@
     <section id="about_anchor" class="about">
         <div class="container">
             <div class="row">
-	      <p>Sorry this page doesn't. Enjoy a picture of me and
-	      pizza.<br><br><img class="img-basic" src="img/404.jpg"
-	      alt="Pizza"></p>
+                <p>Sorry this page doesn't. Enjoy a picture of me and
+                    pizza.<br><br><img class="img-basic" src="img/404.jpg" alt="Pizza"></p>
             </div>
         </div>
     </section>
