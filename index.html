@@ -68,15 +68,6 @@
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
 
-    <!-- javascripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/0ecfff49f6.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="content/js/grayscale.min.js"></script>
-    <script type="text/javascript" src="content/js/google_optimize.js"></script>
-    <script type="text/javascript" src="content/js/google_analytics.js"></script>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -85,7 +76,7 @@
     <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <button type="button" aria-label="Collapse Nav Bar" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" aria-hidden="true">
                     <i class="fa fa-bars" style="color: #fff;"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
@@ -140,9 +131,9 @@
                         <br>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x" aria-label="Link to LinkedIn Profile">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.linkedin.com/in/kencavagnolo/"><i class="fab fa-linkedin fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/kencavagnolo/" rel="noopener"><i class="fab fa-linkedin fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Professional<br>History</strong>
@@ -151,9 +142,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x" aria-label="Link to GitHub Account">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.github.com/kcavagnolo"><i class="fab fa-github-square fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.github.com/kcavagnolo" rel="noopener"><i class="fab fa-github-square fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Hobby<br>Projects</strong>
@@ -162,9 +153,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x" aria-label="Link to OCA Research Site">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.oca.eu/cavagnolo"><i class="fas fa-satellite fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.oca.eu/cavagnolo" rel="noopener"><i class="fas fa-satellite fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Research<br>Archive</strong>
@@ -173,9 +164,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x" aria-label="Link to KnoxData Meetup Page">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.meetup.com/knoxdata"><i class="fa fa-paper-plane fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.meetup.com/knoxdata" rel="noopener"><i class="fa fa-paper-plane fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Fun<br>Stuff</strong>
@@ -344,6 +335,16 @@
             </div>
         </div>
     </footer>
+
+    <!-- javascripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ecfff49f6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="content/js/grayscale.min.js"></script>
+    <script type="text/javascript" src="content/js/google_optimize.js"></script>
+    <script type="text/javascript" src="content/js/google_analytics.js"></script>
+
 </body>
 
 </html>
