@@ -33,19 +33,11 @@
     <link rel="canonical" href="https://kcavagnolo.com">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="https://www.kcavagnolo.com/xmlrpc.php">
-    <script type="text/javascript" src="content/js/loadCSS.js"></script>
-    <script>
-        loadCSS("css/bootstrap.min.css")
-    </script>
-    <script>
-        loadCSS("css/kcavagnolo.min.css")
-    </script>
-    <script>
-        loadCSS("font-awesome/css/font-awesome.min.css")
-    </script>
-    <script>
-        loadCSS("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic")
-    </script>
+
+    <!-- stylesheets -->
+    <link rel="preload" href="css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="font-awesome/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -78,12 +70,13 @@
     <link rel='dns-prefetch' href='//s.w.org' />
 
     <!-- javascripts -->
-    <script type="text/javascript" src="content/js/jquery.min.js"></script>
-    <script type="text/javascript" src="content/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="content/js/grayscale.js"></script>
-    <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="content/js/goptimize.js"></script>
-    <script type="text/javascript" src="content/js/ganalytics.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ecfff49f6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="content/js/grayscale.min.js"></script>
+    <script type="text/javascript" src="content/js/google_optimize.js"></script>
+    <script type="text/javascript" src="content/js/google_analytics.js"></script>
 
 </head>
 
@@ -144,14 +137,13 @@
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="row">
-                        <h2>Asking "why?" tends to solve most problems.</h2>
                         <br>
                         <br>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.linkedin.com/in/kencavagnolo/"><i class="fa fa-suitcase fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/kencavagnolo/"><i class="fab fa-linkedin fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Professional<br>History</strong>
@@ -162,7 +154,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.github.com/kcavagnolo"><i class="fa fa-code fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.github.com/kcavagnolo"><i class="fab fa-github-square fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Hobby<br>Projects</strong>
@@ -173,7 +165,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                    <a target="_blank" href="https://www.oca.eu/cavagnolo"><i class="fa fa-coffee fa-stack-1x btn-outline"></i></a>
+                                    <a target="_blank" href="https://www.oca.eu/cavagnolo"><i class="fas fa-satellite fa-stack-1x btn-outline"></i></a>
                                 </span>
                                 <h4>
                                     <strong>Research<br>Archive</strong>
@@ -214,76 +206,74 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.primordialanalytics.com/" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="img/dsci_gs.jpg" alt="Ken Cavagnolo Data Science Projects">
-                                    <div class="portfolio-box-caption">
-                                        <div class="portfolio-box-caption-content">
-                                            <div class="project-category text-faded">
-                                                Side Projects
-                                            </div>
-                                            <div class="project-name">
-                                                Data Science Projects
-                                            </div>
-                                        </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.primordialanalytics.com/" class="portfolio-box">
+                            <img class="img-portfolio img-responsive" src="img/pac.png" alt="Primordial Analytics Consulting">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Consulting & Mentoring
                                     </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.bruiser-ventures.com" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="img/food_gs.jpg" alt="Ken Cavagnolo Bruiser Ventures">
-                                    <div class="portfolio-box-caption">
-                                        <div class="portfolio-box-caption-content">
-                                            <div class="project-category text-faded">
-                                                Side Projects
-                                            </div>
-                                            <div class="project-name">
-                                                Bruiser Ventures
-                                            </div>
-                                        </div>
+                                    <div class="project-name">
+                                        Primordial Analytics
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.imhumanfirst.com/" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="img/travel_gs.jpg" alt="Ken Cavagnolo Travel Interests">
-                                    <div class="portfolio-box-caption">
-                                        <div class="portfolio-box-caption-content">
-                                            <div class="project-category text-faded">
-                                                Interests
-                                            </div>
-                                            <div class="project-name">
-                                                I'm Human First
-                                            </div>
-                                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.bruiser-ventures.com" class="portfolio-box">
+                            <img class="img-portfolio img-responsive" src="img/bv.png" alt="Bruiser Ventures">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Investing
                                     </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.strava.com/athletes/kcavagnolo" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="img/sport_gs.jpg" alt="Ken Cavagnolo Sports Interests">
-                                    <div class="portfolio-box-caption">
-                                        <div class="portfolio-box-caption-content">
-                                            <div class="project-category text-faded">
-                                                Interests
-                                            </div>
-                                            <div class="project-name">
-                                                Sports
-                                            </div>
-                                        </div>
+                                    <div class="project-name">
+                                        Bruiser Ventures
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.imhumanfirst.com/" class="portfolio-box">
+                            <img class="img-portfolio img-responsive" src="img/ihf.png" alt="I'm Human First">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Volunteerism & Charity
+                                    </div>
+                                    <div class="project-name">
+                                        I'm Human First
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.autonomouslogistics.co/" class="portfolio-box">
+                            <img class="img-portfolio img-responsive" src="img/alc.png" alt="Autonomous Logistics">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Technology
+                                    </div>
+                                    <div class="project-name">
+                                        Autonomous Logistics
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -320,12 +310,13 @@
                                     link += (key.charAt(ltr));
                                 }
                             }
-                            document.write("<h4><i class='fa fa-envelope fa-fw'></i><a href='mailto:" + link + "' style='color: white;'>" + link + "</a><br></h4>" +
-                                "<h4><i class='fa fa-slack fa-fw'></i><a href='https://knoxdevs-slackin.herokuapp.com/' style='color: white;'>kcavagnolo</a><br></h4>");
+                            document.write("<h4><i class='fa fa-envelope fa-fw'></i> <a href='mailto:" + link + "' style='color: white;'>" + link + "</a><br></h4>" +
+                                "<h4><i class='fa fa-slack fa-fw'></i> <a href='https://knoxdevs-slackin.herokuapp.com/' style='color: white;'>kcavagnolo</a><br></h4>");
                         }
-                        //-->
+                        //
+                        -->
                     </script>
-                    <noscript>Sorry, Javascript needs to be active on to email me.</noscript>
+                    <noscript>Please enable Javascript to email me.</noscript>
                 </div>
             </div>
         </div>

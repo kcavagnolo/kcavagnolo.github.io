@@ -1,3 +1,30 @@
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=63u0u0kdqgb93oGbNk-hRdfm9bd */
+/* An ecological valence theory of human color preference:  https://www.pnas.org/content/107/19/8877*/
+:root {
+    --c-primary-0: rgba( 50, 70, 82, 1);
+    --c-primary-1: rgba( 92,113,125, 1);
+    --c-primary-2: rgba( 68, 91,104, 1);
+    --c-primary-3: rgba( 32, 54, 67, 1);
+    --c-primary-4: rgba( 20, 43, 57, 1);
+    --c-secondary-1-0: rgba( 57, 59, 89, 1);
+    --c-secondary-1-1: rgba(103,105,136, 1);
+    --c-secondary-1-2: rgba( 78, 80,114, 1);
+    --c-secondary-1-3: rgba( 38, 41, 73, 1);
+    --c-secondary-1-4: rgba( 25, 28, 62, 1);
+    --c-secondary-2-0: rgba( 53, 90, 71, 1);
+    --c-secondary-2-1: rgba( 99,138,118, 1);
+    --c-secondary-2-2: rgba( 73,115, 93, 1);
+    --c-secondary-2-3: rgba( 33, 74, 53, 1);
+    --c-secondary-2-4: rgba( 19, 63, 41, 1);
+    --c-complement-0: rgba(129,105, 75, 1);
+    --c-complement-1: rgba(197,172,141, 1);
+    --c-complement-2: rgba(164,137,104, 1);
+    --c-complement-3: rgba(105, 79, 47, 1);
+    --c-complement-4: rgba( 89, 62, 27, 1);
+}
+
 /* Global Styles */
 
 html {
@@ -8,7 +35,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .text-vertical-center {
@@ -27,7 +54,7 @@ body {
 .img-basic {
     border: 1px;
     border-style: solid;
-    border-color: #000;
+    border-color: var(--c-primary-4);
     margin: 1px auto;
 }
 
@@ -43,8 +70,7 @@ body {
 }
 
 .btn-default {
-    border: solid 1px #fff;
-    color: #6b7e4a;
+    color: var(--c-secondary-1-0);
     background: #fff;
 }
 
@@ -53,11 +79,10 @@ body {
     border: solid 1px #fff;
     outline: 0;
     color: #fff;
-    background-color: #6b7e4a;
+    background-color: var(--c-secondary-1-0);
 }
 
 .btn-outline {
-    border: solid 1px #fff;
     color: #fff;
     transition: all .1s ease-in-out;
 }
@@ -67,8 +92,8 @@ body {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 1px #fff;
-    border-radius: 100%;
-    color: #6b7e4a;
+    border-radius: 33%;
+    color: var(--c-secondary-1-0);
     background: #fff;
 }
 
@@ -97,7 +122,8 @@ hr.large {
 /* Nav bar */
 
 a {
-    color: #4a6b7e;
+    color: var(--c-complement-0);
+    font-weight: bold;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -106,7 +132,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
-    color: #7e4a6b;
+    color: var(--c-complement-4);
 }
 
 .light {
@@ -152,7 +178,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #6b7e4a;
+    color: var(--c-secondary-1-0);
     background-color: transparent;
 }
 
@@ -231,7 +257,7 @@ a:focus {
 
 .navbar-blog .nav li a:hover {
     outline: 0;
-    color: #6b7e4a;
+    color: var(--c-secondary-1-0);
     background-color: transparent;
 }
 
@@ -375,9 +401,7 @@ a:focus {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(126,74,107,.8);
-/*    background: rgba(105,118,82,.8);*/
-/*    background: rgba(126,93,74,.9);*/
+    background: var(--c-secondary-2-0);
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
@@ -393,7 +417,7 @@ a:focus {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
