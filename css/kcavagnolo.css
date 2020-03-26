@@ -306,7 +306,7 @@ a:focus {
     width: 100%;
     height: 100%;
     color: #fff;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg.webp) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -336,19 +336,7 @@ a:focus {
     width: 100%;
     height: 300px;
     color: #fff;
-    background: url(../img/digital.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.callout-blog {
-    display: table;
-    width: 100%;
-    height: 300px;
-    color: #fff;
-    background: url(../img/blog.jpg) no-repeat center center scroll;
+    background: url(../img/digital.webp) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -360,7 +348,7 @@ a:focus {
     width: 100%;
     height: 300px;
     color: #fff;
-    background: url(../img/knx.jpg) no-repeat center center scroll;
+    background: url(../img/knx.webp) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
