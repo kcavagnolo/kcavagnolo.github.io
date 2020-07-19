@@ -48,7 +48,7 @@ npm audit fix
 - Photo by [Major Tom Agency](https://unsplash.com/@majortomagency) on [Unsplash](https://unsplash.com)
 - Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on [Unsplash](https://unsplash.com)
 - Photo by [Donald Giannatti](https://unsplash.com/@wizwow) on [Unsplash](https://unsplash.com)
-- Photo by [Nathan Anderson](https://unsplash.com/@nathananderson) on [Unsplash](https://unsplash.com)
+- Photo by [freezydreamin](https://unsplash.com/@freezydreamin) on [Unsplash](https://unsplash.com)
 
 ## License
 
