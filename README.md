@@ -37,17 +37,18 @@ npm audit fix
 
 ## Credits
 
-* [Github Pages](https://pages.github.com) for hosting.
-* [Start Bootstrap](http://startbootstrap.com) for the site template.
-* [unsplash](http://unsplash.com) for stock photos.
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the CSS toolkit.
+- [Github Pages](https://pages.github.com) for hosting.
+- [Start Bootstrap](http://startbootstrap.com) for the site template.
+- [unsplash](http://unsplash.com) for stock photos.
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the CSS toolkit.
 
 ## Images
 
-* [unsplash-logoHelloquence](https://unsplash.com/@helloquence?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Helloquence")
-* [unsplash-logoMajor Tom Agency](https://unsplash.com/@majortomagency?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Major Tom Agency")
-* [unsplash-logoNick Fewings](https://unsplash.com/@jannerboy62?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Nick Fewings")
-* [unsplash-logoDonald Giannatti](https://unsplash.com/@wizwow?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Donald Giannatti")
+- Photo by [Helloquence](https://unsplash.com/@helloquence) on [Unsplash](https://unsplash.com)
+- Photo by [Major Tom Agency](https://unsplash.com/@majortomagency) on [Unsplash](https://unsplash.com)
+- Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on [Unsplash](https://unsplash.com)
+- Photo by [Donald Giannatti](https://unsplash.com/@wizwow) on [Unsplash](https://unsplash.com)
+- Photo by [Nathan Anderson](https://unsplash.com/@nathananderson) on [Unsplash](https://unsplash.com)
 
 ## License
 

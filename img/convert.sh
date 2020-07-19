@@ -6,3 +6,4 @@ convert ihf.png -quality 50 ihf.webp
 convert knx.jpg -quality 50 knx.webp
 convert pac.png -quality 50 pac.webp
 convert 404.jpg -quality 50 404.webp
+convert contact.jpg -quality 50 contact.webp
