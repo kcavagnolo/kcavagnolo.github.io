@@ -1,8 +1,8 @@
 # Site settings
-name: Primordial Analytics
-title: Primordial Analytics
-tagline: "AI-focused Analytics"
-email: ken@kcavagnolo.com
+name: Ken Cavagnolo
+title: Ken Cavagnolo
+tagline: "Ken Cavagnolo is a human first."
+email: nope@nope
 description: "Ken Cavagnolo is a human first."
 baseurl: ""
 url: https://www.kcavagnolo.com/
@@ -13,16 +13,16 @@ github: [metadata]
 
 # add other dirs
 includes:
-- public
-- fonts
-- img
-- content
+  - public
+  - fonts
+  - img
+  - content
 
 # exclude other dirs
 exclude:
-- node_modules
-- gulpfile.js
-- gulpfile_example.js
-- README.md
-- svg
-- .idea
+  - node_modules
+  - gulpfile.js
+  - gulpfile_example.js
+  - README.md
+  - svg
+  - .idea

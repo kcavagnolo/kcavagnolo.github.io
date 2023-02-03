@@ -4,11 +4,9 @@ Welcome to the open source repo for [my personal web site](http://www.kcavagnolo
 
 ## Build
 
-Assuming macOS. Install Xcode CLI tools and Ruby:
+Assuming Linux. Install Ruby and deps follwing the [instructions here](https://jekyllrb.com/docs/).
 
 ```bash
-xcode-select --install
-brew install ruby
 gem install bundler jekyll
 ```
 
@@ -27,11 +25,13 @@ gulp dev
 
 ## Maintain
 
-To run maintenance tasks:
+To run maintenance tasks, use `bundle` or `npm`:
 
 ```bash
 bundle update
 bundle install
+bundle exec jekyll serve --watch --trace --drafts --verbose
+npm audit
 npm audit fix
 ```
 
