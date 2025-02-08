@@ -14,6 +14,7 @@ To rebuild the site from scratch and capture config updates and styles changes, 
 
 ```bash
 gulp default
+export GITHUB_TOKEN=$GITHUB_KCAVAGNOLO_REPO_TOKEN
 bundle exec jekyll serve --watch --trace --drafts --verbose
 ```
 
@@ -23,16 +24,20 @@ Alternatively, use gulp to watch for changes:
 gulp dev
 ```
 
-## Maintain
-
 To run maintenance tasks, use `bundle` or `npm`:
 
 ```bash
+bundle clean --force
+gem install bundler jekyll
 bundle update
 bundle install
-bundle exec jekyll serve --watch --trace --drafts --verbose
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
 npm audit
 npm audit fix
+export GITHUB_TOKEN=$GITHUB_KCAVAGNOLO_REPO_TOKEN
+bundle exec jekyll serve --watch --trace --drafts --verbose
 ```
 
 ## Credits
@@ -41,14 +46,6 @@ npm audit fix
 - [Start Bootstrap](http://startbootstrap.com) for the site template.
 - [unsplash](http://unsplash.com) for stock photos.
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the CSS toolkit.
-
-## Images
-
-- Photo by [Helloquence](https://unsplash.com/@helloquence) on [Unsplash](https://unsplash.com)
-- Photo by [Major Tom Agency](https://unsplash.com/@majortomagency) on [Unsplash](https://unsplash.com)
-- Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on [Unsplash](https://unsplash.com)
-- Photo by [Donald Giannatti](https://unsplash.com/@wizwow) on [Unsplash](https://unsplash.com)
-- Photo by [freezydreamin](https://unsplash.com/@freezydreamin) on [Unsplash](https://unsplash.com)
 
 ## License
 

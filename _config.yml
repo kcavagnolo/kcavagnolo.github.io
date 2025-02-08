@@ -1,24 +1,33 @@
+# _config.yml
 # Site settings
-name: Ken Cavagnolo
-title: Ken Cavagnolo
+title: "Ken Cavagnolo"
+name: "Ken Cavagnolo"
 tagline: "Ken Cavagnolo is a human first."
-email: nope@nope
 description: "Ken Cavagnolo is a human first."
+email: "nope@nope"
+url: "https://www.kcavagnolo.com"
+repository: "kcavagnolo/kcavagnolo.github.io"
 baseurl: ""
-url: https://www.kcavagnolo.com/
+timezone: "America/Los_Angeles"
+lang: "en-US"
 permalink: pretty
+
+# Markdown & Syntax Highlighting
 markdown: kramdown
 highlighter: rouge
-github: [metadata]
 
-# add other dirs
-includes:
+# Build options
+safe: true
+future: true
+
+# Directories to include (process these even if they start with underscores)
+include:
   - public
   - fonts
   - img
   - content
 
-# exclude other dirs
+# Directories and files to exclude
 exclude:
   - node_modules
   - gulpfile.js
@@ -26,3 +35,21 @@ exclude:
   - README.md
   - svg
   - .idea
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# GitHub metadata (for use with jekyll-github-metadata)
+github:
+  is_project_page: false

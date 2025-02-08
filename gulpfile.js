@@ -67,7 +67,7 @@ gulp.task('browserSync', function () {
 
 // Dev task
 gulp.task('dev', gulp.series('css', 'js', 'browserSync', function () {
-  gulp.watch('./css/*.css', ['css']);
-  gulp.watch('./content/js/*.js', ['js']);
+  gulp.watch('./css/*.css', gulp.series('css'));
+  gulp.watch('./content/js/*.js', gulp.series('js'));
   gulp.watch('./*.html', browserSync.reload);
 }));
